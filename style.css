@@ -772,11 +772,12 @@ header .menu-btn {
 
   #feature h1{
     text-align: center;
+    letter-spacing: 0;
   }
 
   #feature .feature-text {
     width: 100%;
-    padding: 30px 20px;
+    padding: 30px 15px;
   }
 
   #feature .lead {

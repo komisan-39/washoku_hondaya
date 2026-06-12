@@ -695,7 +695,6 @@ header .menu-btn {
     width: 94%;
     margin: 30px auto;
     font-size: 1.8rem;
-    text-indent: 0.5em;
   }
 
   footer .copyright {
@@ -771,6 +770,10 @@ header .menu-btn {
     height: 300px;
   }
 
+  #feature h1{
+    text-align: center;
+  }
+
   #feature .feature-text {
     width: 100%;
     padding: 30px 25px;
@@ -778,6 +781,7 @@ header .menu-btn {
 
   #feature .lead {
     font-size: 2rem;
+    text-align: center;
   }
 
   #feature .contents-blk {

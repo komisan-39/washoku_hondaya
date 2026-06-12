@@ -728,15 +728,10 @@ header .menu-btn {
     display: inline-block;
   }
 
-  #about .lead1 {
-    text-align: left;
+  #about .lead {
+    text-align: center;
     text-indent: 1em;
-    margin-bottom: 0;
-  }
-
-  #about .lead2 {
-    text-align: left;
-    text-indent: 1em;
+    margin-bottom: 70px;
   }
 
   #about .lead br + * {

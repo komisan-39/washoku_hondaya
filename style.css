@@ -170,7 +170,7 @@ footer .logo {
   justify-content: space-between;
 }
 
-#about .lead2 {
+#about .lead {
   margin: 0 0 65px;
 }
 
@@ -688,13 +688,14 @@ header .menu-btn {
   footer .wrap-blk p {
     width: 94%;
     margin: 0 auto 30px;
-    text-align: left;
+    text-align: center;
   }
 
   footer .wrap-blk ul {
     width: 94%;
     margin: 30px auto;
     font-size: 1.8rem;
+    text-indent: 0.5em;
   }
 
   footer .copyright {
@@ -729,9 +730,9 @@ header .menu-btn {
   }
 
   #about .lead {
-    text-align: center;
-    text-indent: 1em;
-    margin-bottom: 70px;
+    text-align: left;
+    margin: 0 auto 70px;
+    width: 92%;
   }
 
   #about .lead br + * {
@@ -804,25 +805,17 @@ header .menu-btn {
   }
 
   #menu .inner {
-    width: 100%;
+    width: 94%;
   }
 
   #menu h1 {
     margin: 0 0 30px;
   }
 
-  #menu .lead1 {
-    margin: 0 auto;
-    width: 94%;
-    text-align: left;
-    text-indent: 1em;
-  }
-
-  #menu .lead2 {
+  #menu .lead {
     margin: 0 auto 30px;
-    width: 94%;
+    width: 92%;
     text-align: left;
-    text-indent: 1em;
   }
 
   #menu ul {

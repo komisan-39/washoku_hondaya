@@ -904,11 +904,13 @@ header .menu-btn {
   }
 
   #about section .lead {
-    margin: 0 0 30px;
+    margin: 0 auto 30px;
+    text-align: left;
+    text-align: justify;
   }
 
   #about section#sai {
-    margin: 380px 0 0;
+    margin: 400px 0 0;
   }
 
   #about section .wrap-blk .contents-blk {
@@ -928,4 +930,5 @@ header .menu-btn {
   #about section .contents-blk .text p {
     font-size: 1.2rem;
   }
+
 }

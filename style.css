@@ -596,6 +596,10 @@ header .menu-btn {
     display: none;
   }
 
+  .sp {
+    display: block;
+  }
+
   .inner {
     width: 94%;
     margin: 0 auto;
@@ -725,7 +729,7 @@ header .menu-btn {
   }
 
   #about .sp {
-    display: inline-block;
+    display: block;
   }
 
   #about .lead {
@@ -770,7 +774,7 @@ header .menu-btn {
     height: 300px;
   }
 
-  #feature h1{
+  #feature h1 {
     text-align: center;
     letter-spacing: 0;
   }

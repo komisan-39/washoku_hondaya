@@ -690,9 +690,9 @@ header .menu-btn {
   }
 
   footer .wrap-blk p {
-    width: 94%;
+    width: 88%;
     margin: 0 auto 30px;
-    text-align: center;
+    text-align: left;
   }
 
   footer .wrap-blk ul {
@@ -779,13 +779,15 @@ header .menu-btn {
     letter-spacing: 0;
   }
 
+
+
   #feature .feature-text {
     width: 100%;
     padding: 30px 15px;
   }
 
   #feature .lead {
-    font-size: 2rem;
+    font-size: 1.9rem;
     text-align: center;
   }
 
@@ -861,10 +863,12 @@ header .menu-btn {
 
   #menu .price {
     position: absolute;
-    bottom: -20px;
+    bottom: 0;
     text-align: center;
     left: 0;
     right: 0;
+    font-weight: normal;
+    font-size: 1.8rem;
   }
 
   #reservation {

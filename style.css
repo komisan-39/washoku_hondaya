@@ -609,6 +609,8 @@ header .menu-btn {
 
   header .inner {
     height: 80px;
+    display: flex;
+    justify-content: center;
   }
 
   header .logo {
@@ -619,20 +621,26 @@ header .menu-btn {
 
   header .logo a {
     font-size: 6rem;
+    margin: 0;
+    letter-spacing: 0;
   }
 
   #about header h1 {
     margin: 0;
   }
 
+  #about .header-logo {
+    text-align: center;
+  }
+
   header .menu-btn {
     display: block;
     position: absolute;
-    right: 3%;
-    top: 10px;
+    right: 5%;
+    top: 15px;
     padding: 0;
-    width: 34px;
-    height: 34px;
+    width: 45px;
+    height: 45px;
     line-height: 32px;
     text-align: center;
     border: 1px solid #666;
@@ -692,8 +700,8 @@ header .menu-btn {
   footer .wrap-blk p {
     width: 88%;
     margin: 0 auto 30px;
-    text-align: left;
-    text-indent: 1em;
+    text-align: justify;
+    text-indent: 0.5em;
   }
 
   footer .wrap-blk ul {
@@ -930,5 +938,4 @@ header .menu-btn {
   #about section .contents-blk .text p {
     font-size: 1.2rem;
   }
-
 }
